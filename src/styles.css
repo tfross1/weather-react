@@ -1,0 +1,32 @@
+form input,
+form button {
+    margin: 0 3px;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.search-input {
+    width: 70%;
+}
+
+.WeatherSearch .container {
+    border: 1px solid lightgray;
+    text-align: left;
+    padding: 2rem;
+    width: 500px;
+    margin: 35px 170px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.big-temp {
+    margin: 15px 0;
+    font-size: 45px;
+}
+
+button {
+    background-color: palevioletred;
+  }
