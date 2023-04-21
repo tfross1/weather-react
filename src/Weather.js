@@ -18,13 +18,13 @@ export default function Weather() {
     });
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    let apiKey = "15b6ba0523386a8a73b38b2440a74dea";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  //function handleSubmit(event) {
+    //event.preventDefault();
+    //let apiKey = "15b6ba0523386a8a73b38b2440a74dea";
+    //let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-    axios.get(apiUrl).then(showWeather);
-  }
+    //axios.get(apiUrl).then(showWeather);
+  //}
 
   function changeCity(event) {
     setCity(event.target.value);
